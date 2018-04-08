@@ -30,11 +30,13 @@ For example, for L = 5 6 6 4 3, Trouble Sort would proceed as follows:
 
 We were looking forward to presenting Trouble Sort at the Special Interest Group in Sorting conference in Hawaii, but one of our interns has just pointed out a problem: it is possible that Trouble Sort does not correctly sort the list! Consider the list 8 9 7, for example.
 
-We need your help with some further research. Given a list of N integers, determine whether Trouble Sort will successfully sort the list into non-decreasing order. If it will not, find the index (counting starting from 0) of the first sorting error after the algorithm has finished: that is, the first value that is larger than the value that comes directly after it when the algorithm is done.
-Input
+We need your help with some further research. Given a list of <b>N</b> integers, determine whether Trouble Sort will successfully sort the list into non-decreasing order. If it will not, find the index (counting starting from 0) of the first sorting error after the algorithm has finished: that is, the first value that is larger than the value that comes directly after it when the algorithm is done.
 
-The first line of the input gives the number of test cases, T. T test cases follow. Each test case consists of two lines: one line with an integer N, the number of values in the list, and then another line with N integers Vi, the list of values.
-Output
+## Input
+
+The first line of the input gives the number of test cases,<b> T</b>. <b>T</b> test cases follow. Each test case consists of two lines: one line with an integer <b>N</b>, the number of values in the list, and then another line with <b>N</b> integers <b>Vi</b>, the list of values.
+
+## Output
 
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is OK if Trouble Sort correctly sorts the list, or the index (counting starting from 0) of the first sorting error, as described above.
 
@@ -55,8 +57,8 @@ Time limit (for the entire test set): 20 seconds.
 ### Special Note
 
 Notice that test set 2 for this problem has a large amount of input, so using a non-buffered reader might lead to slower input reading. In addition, keep in mind that certain languages have a small input buffer size by default.
-Sample
 
+## Sample
 
 <table  width="100%">
   <tr>
